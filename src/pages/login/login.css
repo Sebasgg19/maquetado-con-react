@@ -1,0 +1,92 @@
+/* Fonts! */
+
+@font-face{
+    font-family: Righteous;
+    src: url(../../assets/fonts/righteous.regular.ttf);
+}
+
+@font-face{
+    font-family: Roboto;
+    src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+
+/* Header Styles! */
+
+.main_header{
+    background-color: #009688;
+    height: 87px;
+    
+}
+
+.header_logo{
+    width: 37px;
+    height: 33px;
+}
+
+.header_h1{
+    color: white;
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+}
+
+/* Form Styles! */
+
+.mainform_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form{
+    width: 578px;
+}
+
+.btnstart_login{
+    Font-Family: Roboto;
+    Font-Style: Bold;
+    Font-Size: 22px;
+    Line-Height: 16px;
+    Line-Height: 62.06%;
+    align-items: Center;
+    Vertical-Align: Center;
+    Letter-Spacing: 1.25px;
+    width: 548px;
+
+}
+.h1form_login{
+Font-Style: Regular;
+Font-Size: 32px;
+Line-Height: 30px;
+Line-Height: 80%;
+Align-items: Left;
+Vertical-Align: Top;
+Letter-Spacing: 0.15px;
+}
+
+.passforget_login{
+Font-Family: Roboto;
+Font-Style: Medium;
+Font-Size: 16px;
+Line-Height: 12px;
+Line-Height: 64%;
+Letter-Spacing: 1.25px;
+color: #009688;
+}
+
+.passforget_login:hover{
+text-decoration: none;
+color: #009688;
+}
+
+.registerbtn_login{
+    border: 1px solid #009688;
+border-radius: 4px;
+font-Size: "20";
+font-Family: 'Roboto';
+font-Weight: "500";
+color: #009688;
+}
